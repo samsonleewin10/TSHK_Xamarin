@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DocumentDBTodo.LoginPage" BackgroundColor="White">
+	<ContentPage.Content>
+		<StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="5" BackgroundColor="White">
+        	<Label TextColor="Gray" FontSize="20" HorizontalOptions="Center" Opacity="1">
+                welcome to
+            </Label>			
+			<Label TextColor="#3FA9F5" FontSize="30" FontAttributes="Bold" Margin="0,0,0,15" HorizontalOptions="Center" Opacity="1">
+                FUN EXPLORER
+            </Label>
+
+			<!--<Image x:Name="loginImage" WidthRequest="140" Margin="0,0,0,15" />-->
+            <Label Text="Username:" TextColor="#3FA9F5" Opacity="1"/>
+            <Entry x:Name="nameInput" Placeholder="TechSummitHK2017" BackgroundColor="White" TextColor="Gray" Opacity="1"/>
+            <Label Text="Password:" TextColor="#3FA9F5" Opacity="1"/>
+            <Entry x:Name="pwdInput" Placeholder="********" IsPassword="true"  BackgroundColor="White" TextColor="Gray" Opacity="1"/>
+            <Button x:Name="LoginBtn" Text="Login" BackgroundColor="Teal" TextColor="White" Opacity="1"/>
+			<Label TextColor="#3FA9F5" FontSize="14" HorizontalOptions="Center" Opacity="1">
+                Forgot Password
+            </Label>
+			<Label TextColor="Gray" FontSize="14" Margin="0,30" HorizontalOptions="Center" Opacity="1">
+                --Created with Visual Studio 2017--
+            </Label>
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

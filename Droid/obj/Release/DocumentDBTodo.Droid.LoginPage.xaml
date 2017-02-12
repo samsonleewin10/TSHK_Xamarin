@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DocumentDBTodo.LoginPage" BackgroundColor="White">
+	<ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="10" BackgroundColor="White">
+            <Label TextColor="Gray" FontSize="20" HorizontalOptions="Center">
+                #HongKong
+            </Label>
+            <Label TextColor="#3FA9F5" FontSize="30" FontAttributes="Bold" Margin="0,0,0,15" HorizontalOptions="Center">
+                THE CHAT ROOM
+            </Label>
+            <Image x:Name="loginImage" Margin="0,0,0,15" WidthRequest="140"/>
+            <!--<Label Text="Username:" TextColor="White"/>
+            <Entry x:Name="nameInput" Placeholder="Input Your Username here" BackgroundColor="White" TextColor="Gray"/>
+            <Label Text="Password:" TextColor="White"/>
+            <Entry x:Name="pwdInput" Placeholder="Input Your Password here" IsPassword="true"  BackgroundColor="White" TextColor="Gray"/>
+            <Button x:Name="LoginBtn" Text="Login" BackgroundColor="Teal" TextColor="White" />-->
+            <Button x:Name="ChatBtn" Text="Chat Now" BackgroundColor="#3FA9F5" TextColor="White" Margin="0,15" />
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

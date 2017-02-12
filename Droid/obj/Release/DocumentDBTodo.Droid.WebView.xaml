@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DocumentDBTodo.WebView">
+	<ContentPage.Content>
+		<StackLayout>
+			<Button Text="Back" HorizontalOptions="StartAndExpand" Clicked="backClicked"/>
+			<WebView x:Name="Browser" Source="https://webchat.botframework.com/embed/visualizerhk?s=Xnu21F-0M1E.cwA.XlY.-EsAkJ9oVvikgHpqOFqXykBsL06Nz13S8gmr1OIXvag" HeightRequest="1000" WidthRequest="1000"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

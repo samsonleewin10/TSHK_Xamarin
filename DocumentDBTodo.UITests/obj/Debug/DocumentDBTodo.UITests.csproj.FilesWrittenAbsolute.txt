@@ -1,0 +1,7 @@
+/Users/microsoftdx/Desktop/TechSummitHK/DocumentDBTodo.UITests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/microsoftdx/Desktop/TechSummitHK/DocumentDBTodo.UITests/bin/Debug/DocumentDBTodo.UITests.dll.mdb
+/Users/microsoftdx/Desktop/TechSummitHK/DocumentDBTodo.UITests/bin/Debug/DocumentDBTodo.UITests.dll
+/Users/microsoftdx/Desktop/TechSummitHK/DocumentDBTodo.UITests/obj/Debug/DocumentDBTodo.UITests.dll
+/Users/microsoftdx/Desktop/TechSummitHK/DocumentDBTodo.UITests/obj/Debug/DocumentDBTodo.UITests.dll.mdb
+/Users/microsoftdx/Desktop/TechSummitHK/DocumentDBTodo.UITests/bin/Debug/nunit.framework.dll
+/Users/microsoftdx/Desktop/TechSummitHK/DocumentDBTodo.UITests/bin/Debug/Xamarin.UITest.dll

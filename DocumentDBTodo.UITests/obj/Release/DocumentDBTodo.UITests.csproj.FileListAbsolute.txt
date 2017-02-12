@@ -1,0 +1,7 @@
+C:\Users\samslee\Desktop\TechSummitHK\DocumentDBTodo.UITests\bin\Release\DocumentDBTodo.UITests.dll
+C:\Users\samslee\Desktop\TechSummitHK\DocumentDBTodo.UITests\bin\Release\nunit.framework.dll
+C:\Users\samslee\Desktop\TechSummitHK\DocumentDBTodo.UITests\bin\Release\Xamarin.UITest.dll
+C:\Users\samslee\Desktop\TechSummitHK\DocumentDBTodo.UITests\bin\Release\nunit.framework.xml
+C:\Users\samslee\Desktop\TechSummitHK\DocumentDBTodo.UITests\bin\Release\Xamarin.UITest.xml
+C:\Users\samslee\Desktop\TechSummitHK\DocumentDBTodo.UITests\obj\Release\DocumentDBTodo.UITests.csprojResolveAssemblyReference.cache
+C:\Users\samslee\Desktop\TechSummitHK\DocumentDBTodo.UITests\obj\Release\DocumentDBTodo.UITests.dll

@@ -1,0 +1,5 @@
+/Users/microsoftdx/Desktop/TechSummitHK/DocumentDBTodo.UITests/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/microsoftdx/Desktop/TechSummitHK/DocumentDBTodo.UITests/bin/Release/DocumentDBTodo.UITests.dll
+/Users/microsoftdx/Desktop/TechSummitHK/DocumentDBTodo.UITests/obj/Release/DocumentDBTodo.UITests.dll
+/Users/microsoftdx/Desktop/TechSummitHK/DocumentDBTodo.UITests/bin/Release/nunit.framework.dll
+/Users/microsoftdx/Desktop/TechSummitHK/DocumentDBTodo.UITests/bin/Release/Xamarin.UITest.dll

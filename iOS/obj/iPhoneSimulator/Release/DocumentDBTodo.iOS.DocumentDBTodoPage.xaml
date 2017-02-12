@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:DocumentDBTodo" x:Class="DocumentDBTodo.DocumentDBTodoPage">
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+			<RowDefinition Height="50"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+			<RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <ActivityIndicator Grid.Row="1" Grid.RowSpan="2"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       IsVisible="False"
+                       IsEnabled="True"
+                       x:Name="syncIndicator"/>
+		<Grid Grid.Row = "0" BackgroundColor="Black" Padding="10,0,10,0">
+			<Button x:Name="logoutBtn" Text="Logout" HorizontalOptions="End" BackgroundColor="Black" TextColor="Teal"/>
+		</Grid>
+        <StackLayout Grid.Row="1" BackgroundColor="Black" Padding="10,0,10,15">
+			<Image x:Name="HeaderBg" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="200"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Entry x:Name="newItemName"
+                  Placeholder="Item name" BackgroundColor="#e5e5e5"/>
+                <StackLayout x:Name="buttonsPanel" Grid.Column="1" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                    <Button Text="+"
+                  MinimumHeightRequest="30"
+                  Clicked="OnAdd" TextColor="White" BackgroundColor="#008080"/>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+        <ListView x:Name="todoList"
+				ItemSelected="OnSelected"
+				IsPullToRefreshEnabled="true" Refreshing="OnRefresh"
+				Grid.Row="2">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Clicked="OnComplete" Text="Complete" CommandParameter="{Binding .}"/>
+                        </ViewCell.ContextActions>
+                        <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Padding="15,5,0,0">
+                            <StackLayout Padding="5,0,0,0" VerticalOptions="StartAndExpand" Orientation="Vertical">
+                                <Label Text="{Binding Text}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+		<Grid Grid.Row="3" BackgroundColor="Black">
+			<Button x:Name="BrowseBtn" Text="Browse Events" TextColor="White" BackgroundColor="#008080"/>
+		</Grid>
+    </Grid>
+</ContentPage>
