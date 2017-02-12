@@ -67,12 +67,12 @@ namespace DocumentDBTodo.UITests
             app.WaitForElement(x => x.Class("WebView").XPath("//DIV[@class=\"wc-textbox\"]/INPUT"));
             app.Screenshot("Chat room screen.");
             
-            app.Tap(x => x.Class("WebView").XPath("//DIV[@class=\"wc-textbox\"]/INPUT"));
-            app.EnterText(x => x.Class("WebView"), "hi");
-            app.WaitForElement(x => x.Class("WebView").XPath("//DIV[@class=\"wc-message-group-content\"]/DIV"));
-            app.Tap(x => x.Class("WebView").XPath("//DIV[@class=\"wc-message-group-content\"]/DIV"));
-            app.Tap(x => x.Class("WebView").XPath("//BUTTON[text()=\"No\"]"));
-            app.Screenshot("Chatting.");
+            //app.Tap(x => x.Class("WebView").XPath("//DIV[@class=\"wc-textbox\"]/INPUT"));
+            //app.EnterText(x => x.Class("WebView"), "hi");
+            //app.WaitForElement(x => x.Class("WebView").XPath("//DIV[@class=\"wc-message-group-content\"]/DIV"));
+            //app.Tap(x => x.Class("WebView").XPath("//DIV[@class=\"wc-message-group-content\"]/DIV"));
+            //app.Tap(x => x.Class("WebView").XPath("//BUTTON[text()=\"No\"]"));
+            //app.Screenshot("Chatting.");
         }
 
         [Test]
