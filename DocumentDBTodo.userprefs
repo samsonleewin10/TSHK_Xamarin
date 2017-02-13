@@ -1,15 +1,17 @@
-﻿<Properties StartupConfiguration="{F2CC1A86-0045-49E2-852F-71025C94731F}|Default">
+﻿<Properties StartupConfiguration="{86E5BC60-1CA5-4EEB-94BF-6414F840DB58}|Default">
   <MonoDevelop.Ide.ItemProperties.DocumentDBTodo.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
     <Files>
       <File FileName="MainPage.xaml.cs" Line="49" Column="41" />
       <File FileName="WebView.xaml.cs" Line="13" Column="19" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
       <File FileName="AppPick.xaml.cs" Line="27" Column="45" />
       <File FileName="LoginPage.xaml.cs" Line="16" Column="4" />
+      <File FileName="../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.1.0-34/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="28" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.DocumentDBTodo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E6CE4F7D-4FE0-4522-A5F8-478811357CA1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

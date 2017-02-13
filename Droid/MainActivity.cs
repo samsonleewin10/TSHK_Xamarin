@@ -25,7 +25,7 @@ namespace DocumentDBTodo.Droid
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 
-			MobileCenter.Configure("b8c990ad-fb99-46a2-8b48-64f01f851470");
+			MobileCenter.Configure("94d741a3-54cf-4295-8f80-32b8962d0c2f");
 
 			LoadApplication (new App ());
 		}
